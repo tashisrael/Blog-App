@@ -111,59 +111,32 @@ To get a local copy up and running, follow these steps.
 - Text editor like Visual studio.
 - PostgreSQL
 
-### Setup
+### Install & Setup
 
-Clone this repository to your desired folder:
+To setup and install this sample ROR Blog project, follow the below steps:
+- Clone this project by the command: 
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
 ```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
+$ git clone https://github.com/tashisrael/Blog-App.git
 ```
---->
 
-### Usage
+- Then switch to the project folder by the bellow query:
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+$ cd Blog-App
 ```
---->
+
+- Install the required dependecies with `bundle install`
+- Install npm dependencies with `npm install`
+- With Ruby on Rails and PostgreSQL installed in your environment, you can run `rails server` to run the website.
+
+### Tests
+
+- Run `rspec`
 
 ### Deployment
 
-You can deploy this project using:
+N/A
 
 <!--
 Example:
