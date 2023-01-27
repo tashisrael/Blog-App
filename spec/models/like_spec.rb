@@ -18,5 +18,4 @@ RSpec.describe Like, type: :model do
       expect(@like).to_not be_valid
     end
   end
-
 end
