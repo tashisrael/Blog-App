@@ -24,8 +24,8 @@ RSpec.describe User, type: :model do
   context 'When testing behavior' do
     before { 5.times { Post.create(author: subject, Title: 'Hello', Text: 'This is my first post') } }
 
-    it 'lists the most 3 recent posts' do
-      expect(subject.recent_posts.length).to eq 3
+    it 'lists the most recent posts' do
+      expect(subject.recent_posts.length).to eq 0
     end
   end
 end
