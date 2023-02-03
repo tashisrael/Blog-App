@@ -187,7 +187,6 @@ If you like this project...
 
 - I would like to thank Microverse.
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
