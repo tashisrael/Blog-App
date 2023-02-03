@@ -58,8 +58,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -157,7 +155,7 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Test controllers**
+- [ ] **Test all methods**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
