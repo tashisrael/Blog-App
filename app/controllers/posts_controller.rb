@@ -16,11 +16,18 @@ class PostsController < ApplicationController
   end
 
   def create
-    new_post = Post.new(Title: params[:post][:Title], Text: params[:post][:Text], author: current_user)
+    puts params
+    user = current_user
+    new_post = Post.new(post_params)
+    new_post.author = user
     if new_post.save
-      redirect_to user_posts_path
+      redirect_to user_posts_path(id: user.id)
     else
-      render :new
+      redirect_to user_posts_path(user_id: user.id)
     end
+  end
+
+  def post_params
+    params.require(:post).permit(:Title, :Text)
   end
 end
