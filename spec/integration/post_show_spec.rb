@@ -1,3 +1,4 @@
+require 'rails_helper'
 RSpec.describe 'Post Page Index', type: :feature do
   before :each do
     @tom = User.create(
