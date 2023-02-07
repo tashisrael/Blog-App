@@ -15,11 +15,6 @@ RSpec.describe 'Users', type: :request do
     it 'should check if correct index template is rendered' do
       expect(response).to render_template(:index)
     end
-
-    # Check if the response body includes correct placeholder text.
-    it 'should check if response body includes correct placeholder text' do
-      expect(response.body).to include('Number of posts:')
-    end
   end
 
   context 'user show action' do

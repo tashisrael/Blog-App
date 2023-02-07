@@ -121,7 +121,7 @@ $ cd Blog-App
 
 ### Tests
 
-- Run `rspec`
+- Run `bundle exec rspec`
 
 ### Deployment
 
