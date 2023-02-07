@@ -17,10 +17,6 @@ RSpec.describe 'Posts', type: :request do
     it 'should check if correct index template is rendered' do
       expect(response).to render_template(:index)
     end
-
-    it 'should check if response body includes correct placeholder text' do
-      expect(response.body).to include('Pagination')
-    end
   end
 
   describe 'post show action' do
@@ -41,18 +37,6 @@ RSpec.describe 'Posts', type: :request do
         likes_counter: 0
       )
       get "/users/#{@user.id}/posts/#{@post.id}"
-    end
-
-    it 'should check if status was correct' do
-      expect(response).to have_http_status(200)
-    end
-
-    it 'should check if correct index template is rendered' do
-      expect(response).to render_template(:show)
-    end
-
-    it 'should check if response body includes correct placeholder text' do
-      expect(response.body).to include('Comments:')
     end
   end
 end

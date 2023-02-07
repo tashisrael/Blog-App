@@ -121,7 +121,7 @@ $ cd Blog-App
 
 ### Tests
 
-- Run `rspec`
+- Run `bundle exec rspec`
 
 ### Deployment
 
@@ -146,6 +146,18 @@ Example:
 - GitHub: [@githubhandle](https://github.com/tashisrael)
 - Twitter: [@twitterhandle](https://twitter.com/tashisrael)
 - Linkedin: [@linkedinhandle](https://www.linkedin.com/in/tashobya-israel-6a66b0181/l)
+
+👤 **Sajeel Zafar**
+
+- GitHub: [@Sajeelzafar](https://github.com/Sajeelzafar)
+- Twitter: [@SajeelZafar6](https://twitter.com/SajeelZafar6)
+- LinkedIn: [Sajeel Zafar](https://www.linkedin.com/in/sajeelzafar/)
+
+👤 **Nurgul**
+
+- GitHub: [@githubhandle](https://github.com/NurkaAmre)
+- Twitter: [@twitterhandle](https://twitter.com/AmreNurgul)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/amre-nurgul/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
