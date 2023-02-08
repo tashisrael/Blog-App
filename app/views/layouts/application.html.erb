@@ -12,8 +12,16 @@
   </head>
 
   <body class="bg-red-300">
-        <h1> Blog App </h1>
-        <h3> Powered by Rails </h3>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+        <br />
+      <div class="flex gap-16 justify-end mr-20 login">
+        <% if user_signed_in? %>
+        <%= button_to 'Sign Out', destroy_user_session_path, method: :delete, class: 'btn btn-warning  text-end', data: { turbo: false } %>
+        <% else %>
+        <%= link_to 'Sign In', new_user_session_path, class: 'nav-link'%>
+        <% end%>
+      </div>
       <%= yield %>
   </body>
 </html>
